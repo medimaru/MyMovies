@@ -1,0 +1,10 @@
+.nav {
+  background: salmon;
+  position: fixed;
+  top: 0;
+}
+
+.nav img.menu_logo {
+  background: white;
+}
+/*# sourceMappingURL=style.css.map */
