@@ -1,10 +1,35 @@
 .nav {
-  background: salmon;
   position: fixed;
+  width: 100%;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav .nav_logo {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
 }
 
 .nav img.menu_logo {
-  background: white;
+  width: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+}
+
+.navBlack {
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
 }
 /*# sourceMappingURL=style.css.map */
